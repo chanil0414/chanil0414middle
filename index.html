@@ -1,0 +1,165 @@
+<!DOCTYPE html> <!-- 21761115 정찬일  -->
+<html>
+    <head>
+        <title>middle_test</title>
+        <meta charset="utf-8"/>
+        <style>
+
+            a:link {
+              color: white; text-decoration: none ;
+            }
+            a:visited {
+              color: white; text-decoration: none ;
+            }
+            a:hover {
+              color: white; text-decoration: none ;
+            }
+            body{
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .wrap{
+                min-width: 800px;
+                max-width: 1600px;
+                margin: 0px auto;
+            }
+            header{
+                background-color: #000000;
+                color: white;
+                padding: 0px 40px;
+                position: fixed;
+                top: 0;
+                left: 160px;
+                right: 160px;
+            }
+            header h1{
+                margin: 5px 0px;
+            }
+            header h1 span{
+                color: #ffffff;
+            }
+            header ul{
+                padding: 0px;
+            }
+            header ul li{
+                list-style: none;
+                float: left;
+                padding: 0px 20px;
+            }
+            .float_left{
+                float:left;
+            }
+            .float_right{
+                float:right;
+            }
+            .clearfix::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #main_visual{
+                background-image: url("./image/DSCF0274.jpg");
+                background-color: black;
+                background-repeat: no-repeat;
+                background-position: 50% 60%;
+                background-size: 200px 200px;
+                background-size: 200px auto;
+                background-size: 100% auto;
+                background-size: contain;
+                background-size: cover;
+                color: white;
+                text-align: center;
+                padding: 280px;
+            }
+            #main_visual h2{
+                width: 800px;
+                margin: 0px auto;
+                font-size: 40px;
+                letter-spacing: 5px;
+            }
+            #main_visual p{
+                font-size: 19px;
+            }
+            #main_visual img{
+                margin-top: 100px;
+            }
+            section{
+                text-align: center;
+            }
+            section h3{
+                color: #000000;
+                font-weight: bold;
+                font-size: 25px;
+                margin: 50px 0px;
+            }
+            section p{
+                color: gray;
+            }
+            #about_ul{
+                padding: 0px;
+            }
+            #about_ul li{
+                float: left;
+                list-style: none;
+                width: calc(25% - 1px - 20px - 20px);
+
+                border-right: solid 1px gray;
+                padding: 20px;
+            }
+            #about_ul li:last-child{
+                border: none;
+            }
+            #about_ul dl dd{
+                margin: 0px;
+            }
+            #work_ul{
+                padding: 0px;
+            }
+            #work_ul li{
+                float: left;
+                width: 25%;
+                list-style: none;
+            }
+            #work_ul li img{
+                width: 100%;
+                /* display: inline; */
+                display: block;
+            }
+            .footer-content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <header class="clearfix">
+                <h1 class="float_left"><a href="index.html">ChanilChung</a></h1>
+                <nav class="float_right">
+                    <ul class="clearfix">
+                      <li><a href="Gallery.html">GALLERY</a></li>
+                      <li><a href="Contect.html">CONTACT ME</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="main_visual">
+                <p><br></p>
+                <h2>Welcome to my studio</h2>
+                <p>안녕하세요 필름 사진가 정찬일입니다</p>
+                <!-- img src="./image/location.jpg"/ -->
+            </div>
+
+            <footer>
+                <div class="footer-content"></div>
+                <h3 class="footer-content">Chan_nuit</h3>
+                <p class="footer-content">about me</p>
+                <p class="footer-content">mouthpiece@gmail.com</p>
+                <p class="footer-content">Copyright 2021. CHANIL CHUNG inc. all rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>

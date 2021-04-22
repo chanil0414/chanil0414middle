@@ -1,0 +1,243 @@
+<!DOCTYPE html> <!-- 21761115 정찬일  -->
+<html>
+    <head>
+        <title>middle_test</title>
+        <meta charset="utf-8"/>
+        <style>
+
+              a:link {
+                color: white; text-decoration: none ;
+              }
+              a:visited {
+                color: white; text-decoration: none ;
+              }
+              a:hover {
+                color: white; text-decoration: none ;
+              }
+            body{
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            .wrap{
+                min-width: 800px;
+                max-width: 1600px;
+                margin: 0px auto;
+            }
+            header{
+                background-color: #000000;
+                color: white;
+                padding: 0px 40px;
+                position: fixed;
+                top: 0;
+                left: 169px;
+                right: 169px;
+            }
+            header h1{
+                margin: 5px 0px;
+            }
+            header h1 span{
+                color: #ffffff;
+            }
+            header ul{
+                padding: 0px;
+            }
+            header ul li{
+                list-style: none;
+                float: left;
+                padding: 0px 20px;
+            }
+            .float_left{
+                float:left;
+            }
+            .float_right{
+                float:right;
+            }
+            .clearfix::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+            section{
+                text-align: center;
+            }
+            section h3{
+                color: #000000;
+                font-weight: bold;
+                font-size: 25px;
+                margin: 50px 0px;
+            }
+            section p{
+                color: gray;
+            }
+            html {
+              box-sizing: border-box;
+            }
+
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 0 8px;
+            }
+
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              margin: 8px;
+            }
+
+            .gallery {
+              padding: 50px;
+              text-align: center;
+              background-color: #000000;
+              color: white;
+            }
+
+            .container {
+              padding: 0 16px;
+            }
+
+            .container::after, .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+
+            .title {
+              color: grey;
+            }
+
+            .button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #000;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+
+            .button:hover {
+              background-color: #555;
+            }
+            .footer-content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            </style>
+            </head>
+            <body>
+                    <div class="wrap">
+                        <header class="clearfix">
+                            <h1 class="float_left"><a href="index.html">ChanilChung</a></h1>
+                            <nav class="float_right">
+                                <ul class="clearfix">
+                                    <li><a href="Gallery.html">GALLERY</a></li>
+                                    <li><a href="Contect.html">CONTACT ME</a></li>
+                                </ul>
+                            </nav>
+                        </header>
+                        <div class="gallery">
+              <h1>GALLERY</h1>
+              <p></p>
+            </div>
+
+            <h2 style="text-align:center">photograph</h2>
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="./image/img361.jpg" alt="italy" style="width:100%">
+                  <div class="container">
+                    <h2>Waiting</h2>
+                    <p class="title">Italy</p>
+                    <p></p>
+                    <p>Firenze</p>
+                    <p><button class="button"><a href="https://www.google.com/maps/place/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84+%ED%94%BC%EB%A0%8C%EC%B2%B4+%ED%94%8C%EB%A1%9C%EB%A0%8C%EC%8A%A4/@43.7799368,11.1709281,12z/data=!3m1!4b1!4m5!3m4!1s0x132a56a680d2d6ad:0x93d57917efc72a03!8m2!3d43.7695604!4d11.2558136.html"  target="_blank" alt="map" title="Firenze">location</a></button></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src="./image/img294.jpg" alt="italy" style="width:100%">
+                  <div class="container">
+                    <h2>Airport</h2>
+                    <p class="title">Italy</p>
+                    <p></p>
+                    <p>Firenze</p>
+                    <p><button class="button">location</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src="./image/img368.jpg" alt="italy" style="width:100%">
+                  <div class="container">
+                    <h2>Room</h2>
+                    <p class="title">Italy</p>
+                    <p></p>
+                    <p>Rieti</p>
+                    <p><button class="button">location</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="./image/img189.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Police</h2>
+                  <p class="title">Italy</p>
+                  <p></p>
+                  <p>Rome</p>
+                  <p><button class="button">location</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="./image/img372.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Resting</h2>
+                  <p class="title">Czechia</p>
+                  <p></p>
+                  <p>Praha</p>
+                  <p><button class="button">location</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="./image/img063.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                  <h2>Building</h2>
+                  <p class="title">Czechia</p>
+                  <p></p>
+                  <p>Praha</p>
+                  <p><button class="button">location</button></p>
+                </div>
+              </div>
+              <footer>
+                  <div class="footer-content"></div>
+                  <h3 class="footer-content">Chan_nuit</h3>
+                  <p class="footer-content">about me</p>
+                  <p class="footer-content">mouthpiece@gmail.com</p>
+                  <p class="footer-content">Copyright 2021. CHANIL CHUNG inc. all rights reserved.</p>
+              </footer>
+          </div>
+        </div>
+    </body>
+</html>
